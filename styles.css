@@ -1,3 +1,6 @@
+
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+
 .background {
   position: absolute;
   display: block;
@@ -5,5 +8,30 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 0;
+  z-index: -1;
+}
+
+@font-face {
+  font-family: 'yellowtailregular';
+  src: url('./assets/yellowtail-regular-webfont.woff2') format('woff2'),
+       url('./assets/yellowtail-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gradient { 
+  z-index: 1;
+  background-image: linear-gradient(to right bottom, #141E30, #243B55);
+  border-radius: 15px;
+}
+
+.header {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+  font-size: 28px;
+  color: #FAFAFA;
+}
+
+.dud {
+  color: #757575;
 }
