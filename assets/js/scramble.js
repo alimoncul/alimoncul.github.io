@@ -53,7 +53,6 @@ class TextScramble {
 }
 
 const phrases = [
-    'Stackoverflow User',
     'Racing Enthusiast',
     `${(new Date().getFullYear() - new Date('01.01.1997').getFullYear())} years old`,
     'Git Blamer',
