@@ -64,7 +64,6 @@ const phrases = [
 
 setTimeout(() => {
     const el = document.querySelector('#myself');
-    console.warn(el);
     const fx = new TextScramble(el);
 
     let counter = 0;
